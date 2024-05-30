@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+.container{
+    background-color: aliceblue;
+    position: relative;
+    height: 500px;
+    width: 450px;
+    border-radius: 10px;
+    padding: 100px;
+    box-sizing: border-box;
+    box-shadow: 14px 20px 5px rgb(219, 211, 211);
+}
+.brand-logo{
+    height: 100px;
+    width: 100px;
+    background: url("../images/prof.png");
+    margin: auto;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px gray;
+}
+.brand-title{
+    color: rgb(107, 107, 240);
+
+}
+.inputs{
+    text-align: left;
+    margin-top: 20px;
+}
+input,button,label{
+    display: block;
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 10px;
+    color: rgb(107, 107, 240);
+
+}
+input{
+    background: rgb(241, 236, 236);
+    padding: 10px;
+    height: 50px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 5px gray;
+}
+button{
+    color: white;
+    background-color: rgb(107, 107, 240) ;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px gray;
+}
