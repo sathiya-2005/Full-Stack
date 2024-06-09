@@ -1,0 +1,28 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+h2{
+    color: rgb(15, 87, 221);
+}
+form{
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px black;
+}
+label{
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid;
+}
