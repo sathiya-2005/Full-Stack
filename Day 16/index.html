@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Language Translator</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        header{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        nav{
+            padding: 10px;
+            text-align: center;
+            background-color: rgb(83, 82, 82);
+        }
+        nav a{
+            color: white;
+            text-decoration: none;
+            padding-right: 20px;
+        }
+        .about-us{
+            background-color: rgb(197, 156, 21);
+            text-align: center;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .about-us p{
+            color: white;
+            margin: auto;
+        }
+        .team{
+            text-decoration: none;
+            color: black;
+            background-color: white;
+            padding: 2px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <h1>One Page Website</h1>
+    </header>
+    <!--Navigation Bar-->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="service.html">Services</a>
+    </nav>
+    <section class="about-us">
+        <h1>About US</h1>
+        <p>Language translation is crucial for bridging cultural and linguistic divides, enabling effective communication and fostering global understanding. It facilitates international business, diplomacy, and tourism by allowing people from different linguistic backgrounds to exchange ideas, conduct transactions, and build relationships. In academia and science, translation disseminates knowledge across borders, promoting innovation and collaboration. Moreover, it preserves and shares diverse cultural narratives and literature, enriching global heritage. In essence, translation is a vital tool for connectivity, inclusivity, and progress in an increasingly interconnected world.</p>
+        <a href="#" class="team">Our Team</a>
+    </section>
+    <p id="demo"></p>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script>
+        function googleTranslateElementInit(){
+            new google.translate.TranslateElement(
+                {pagelanguage:"en"},'demo'
+            );
+        }
+    </script>
+    
+</body>
+</html>
